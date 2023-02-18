@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete</title>
+</head>
+<body>
+    <h1>Nova enquete</h1>
+    <form method="post" action="/nova-enquete">
+      <label for="pergunta">Pergunta:</label>
+      <input type="text" name="pergunta" id="pergunta">
+      <br>
+      <label for="opcoes">Opções (uma por linha):</label>
+      <textarea name="opcoes" id="opcoes"></textarea>
+      <br>
+      <button type="submit">Criar enquete</button>
+    </form>
+</body>
+</html>
